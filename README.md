@@ -1,4 +1,4 @@
-# ACA PROGRAMMING LANGUAGE
+# ACA Programming Language
 Bilkent University - CS315 - Project Repository
 
 Contributors:
