@@ -1,0 +1,81 @@
+definitions{
+	
+	const string aca = "ACA Programming Language"
+
+	real a = 3
+
+	real @method(){
+
+		if (a == 2){
+			real b = 17
+			return b
+		}else{
+			string wrong = "wrong!"  $$ Indicated that this is wrong.
+			return 0
+		}
+	}
+
+	void @othermethod(real c){
+
+		A- = {1, 2, 18, 300}
+		B- = {9, 5, {1,2}}
+		C- = (A- #+ B-)
+		D- = (A- #& B-)
+		E- = (A- #- B-)
+		F- = (A- #* B-)
+		G- = {"alper", "cansu", "asaf"}
+
+		print(D)
+		printl(F)	
+		
+	}
+
+	loop(a == 3){
+		print("Enter the number & name.")
+		in(5)
+		in("Name")
+	}
+
+	$$ TESTING	
+
+	void @alper(){
+		string surname = "kilicaslan" $$ We did a good job.
+	}
+
+	real @cansu(real asaf){
+		[]arr = [5 9 7]
+		return asaf
+	}
+
+	
+	$$ Testing Proper/Improper Sub/Super Set
+
+	if (A- // B-){
+		real o = 1
+	}
+
+	if (A- //_ B-){
+		real o = 2
+	}
+
+	if (A- \\ B-){
+		real o = 3
+	}
+
+	if (A- \\_ B-){
+		real o = 4
+	}
+
+	if (1 @@ B-){
+		real o = 5
+	}
+
+
+};
+perform{
+
+	@method()
+	@othermethod(real c)
+	@alper()
+	@cansu(real asaf)
+}
